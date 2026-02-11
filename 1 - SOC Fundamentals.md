@@ -55,7 +55,9 @@ Types of SOC Models
 
 Depending on your security needs and budget, there are several types of SOCs:
 
-![Image 1](SOC/Assets/1 - SOC Fundamentals/1.png)
+![Image 1](SOC/Assets/SOC_Fundamentals/1.png)
+
+
 
 In-house SOC
 
@@ -84,7 +86,7 @@ be a strong relationship between people, processes, and technology.
 
 Simply put, we will discuss the people, processes, and technologies required for SOC.
 
-![Image 2](SOC/Assets/1 - SOC Fundamentals/2.png)
+![Image 2](SOC/Assets/SOC_Fundamentals/2.png)
 
 People
 
@@ -161,7 +163,7 @@ The Advantages of Being a SOC Analyst
 There are many various techniques for attack vectors and malicious software and they
 increase more and more every day. As an analyst you will get greater enjoyment from
 
-![Image 3](SOC/Assets/1 - SOC Fundamentals/3.png)
+![Image 3](SOC/Assets/SOC_Fundamentals/3.png)
 
 investigating these varying types of incidents. Even though the operating systems, security
 products, etc. that you use will be the same the job will feel less monotonous because you
@@ -231,7 +233,7 @@ forgotten their password would try to re-enter it that many times in such a shor
 time. So we create a SIEM rule/filter to detect such activity that exceeds the threshold.
 Based on this SIEM rule, an alert will be generated when such a situation occurs.
 
-![Image 4](SOC/Assets/1 - SOC Fundamentals/4.png)
+![Image 4](SOC/Assets/SOC_Fundamentals/4.png)
 
 Some popular SIEM solutions: IBM QRadar, ArcSight ESM, FortiSIEM, Splunk, etc. To get a
 better picture, you can visit the “Monitoring” page on LetsDefend.
@@ -301,7 +303,7 @@ effectively by SOC analysts.
 
 What is Log Management?
 
-![Image 7](SOC/Assets/1 - SOC Fundamentals/7.png)
+![Image 7](SOC/Assets/SOC_Fundamentals/7.png)
 
 As the name implies, Log Management provides access to all logs in an environment (web
 logs, OS logs, firewall, proxy, EDR, etc.) and allows you to manage them in one place. This
@@ -389,7 +391,7 @@ using the containment feature of EDR solutions. This feature allows the selected
 communicate solely with the EDR center. This means that even though the device is
 isolated from the network, you can continue your analysis.
 
-![Image 12](SOC/Assets/1 - SOC Fundamentals/12.png)
+![Image 12](SOC/Assets/SOC_Fundamentals/12.png)
 
 Quick Tip
 
@@ -439,7 +441,7 @@ Some SOAR products commonly used in the industry:
 
 The image below shows what can be achieved with a SOAR solution.
 
-![Image 13](SOC/Assets/1 - SOC Fundamentals/13.png)
+![Image 13](SOC/Assets/SOC_Fundamentals/13.png)
 
 image: hawk-eye.io
 
