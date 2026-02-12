@@ -254,7 +254,7 @@ Some SOAR products commonly used in the industry:
 * Logsign
 * Demisto
 The image below shows what can be achieved with a SOAR solution.
-![Image 11](../Assets/SOC_Fundamentals/11.png)
+![Image 11](../Assets/SOC_Fundamentals/11.jpg)
 image: hawk-eye.io
 
 The benefits of SOAR and how you can effectively use SOAR as a SOC analyst will be the focus of the rest of this lesson.
