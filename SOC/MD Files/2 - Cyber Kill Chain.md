@@ -131,3 +131,4 @@ This is the stage at which attack preparations are carried out to achieve the ul
 > **ANSWER: Installation**
 ### What is the Cyber Kill Chain step in which the attacker installs malicious content on the victim's system prior to the exploit process?
 > **ANSWER: Delivery**
+# 100% CORRECT

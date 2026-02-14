@@ -189,3 +189,4 @@ Each software has a unique ID, name and description. For example, the below imag
 > **ANSWER: ICS Matrix**
 ### What is the tool used for credential dumping specifically only for Linux systems by the “TeamTNT” APT group?
 > **ANSWER: MimiPenguin**
+# 100% CORRECT
