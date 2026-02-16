@@ -9,16 +9,18 @@ The repository is organized into structured modules, following the SOC Analyst l
 
 ```text
 .
-├── SOC/
-│   ├── Assets/                      # Visual aids and screenshots used in write-ups
+├── SOC 
+│   ├── Assets                       # Visual aids and screenshots used in write-ups
 │   │
-│   └── MD Files/                    # Detailed markdown write-ups for each lecture
+│   └── MD Files                     # Detailed markdown write-ups for each lecture
+|       |
 │       ├── 1 - SOC Fundamentals
 │       ├── 2 - Cyber Kill Chain
 │       ├── 3 - MITRE ATT&CK Framework
 │       ├── 4 - Introduction to Phishing
 |       ├── 5 - Detecting Web Attacks
 |       └── 6 - Detecting Web Attacks - 2
+|
 ├── LICENSE                          # MIT License
 └── README.md                        # Project overview and structure
 ```

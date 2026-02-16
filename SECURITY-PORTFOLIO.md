@@ -6,7 +6,7 @@ This repository documents my hands-on experience as a SOC Analyst, focusing on r
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 Aspiring SOC Analyst with practical experience in:
 
@@ -20,7 +20,7 @@ Aspiring SOC Analyst with practical experience in:
 
 ---
 
-## 📂 SOC Analyst Write-Ups (LetsDefend)
+##  SOC Analyst Write-Ups (LetsDefend)
 
 This section contains detailed investigation reports from LetsDefend.io labs.
 
@@ -38,7 +38,7 @@ Each write-up includes:
 
 ---
 
-## 🏆 Certifications & Badges
+##  Certifications & Badges
 
 - Fortinet Certified Fundamentals in Cybersecurity (FCF)
 - Fortinet NSE 1
@@ -48,7 +48,7 @@ Each write-up includes:
 - LetsDefend SOC Analyst Path (In Progress)
 ---
 
-## 🛠 Technical Skills
+##  Technical Skills
 
 **Security Tools:**
 - SIEM Platforms
@@ -66,13 +66,13 @@ Each write-up includes:
 
 ---
 
-## 🎯 Career Goal
+##   Career Goal
 
 To work as a SOC Analyst / Blue Team Security Analyst and continuously improve in threat detection and defensive security operations.
 
 ---
 
-## 📫 Contact
+##  Contact
 
 GitHub: https://github.com/ogtamimi  
 LinkedIn: https://www.linkedin.com/in/ogtamimi
