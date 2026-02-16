@@ -96,7 +96,7 @@ should be used in conjunction with other security tools and best practices.
 
 ### lets solve it :
 1. Open /root/Desktop/QuestionFiles/Open-Redirection/access.log and check All users 
-![alt text](..\Assets\lab6\1.png)
+![alt text](../Assets/lab6/1.png)
 
 2. this IP: 254.198.150.19 Indicators:
 * Massive repeated requests in milliseconds
