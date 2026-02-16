@@ -17,7 +17,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 │       ├── 2 - Cyber Kill Chain
 │       ├── 3 - MITRE ATT&CK Framework
 │       ├── 4 - Introduction to Phishing
-|       └── 5 - Detecting Web Attacks
+|       ├── 5 - Detecting Web Attacks
+|       └── 6 - Detecting Web Attacks - 2
 ├── LICENSE                          # MIT License
 └── README.md                        # Project overview and structure
 ```
@@ -29,6 +30,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 ### [3. MITRE ATT&CK Framework](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/3%20-%20MITRE%20ATT&CK%20Framework.md)
 ### [4. Introduction to Phishing](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/4%20-%20Introduction%20to%20Phishing.md)
 ### [5. Detecting Web Attacks](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/5%20-%20Detecting%20Web%20Attacks.md)
+### [6. Detecting Web Attacks - 2](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files6%20-%20Detecting%20Web%20Attacks%20-%202.md)
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

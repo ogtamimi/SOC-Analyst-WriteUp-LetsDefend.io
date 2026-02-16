@@ -96,7 +96,7 @@ should be used in conjunction with other security tools and best practices.
 
 ### lets solve it :
 1. Open /root/Desktop/QuestionFiles/Open-Redirection/access.log and check All users 
-![alt text](..\Assets\lab6\1.png)
+![alt text](../Assets/lab6/1.png)
 
 2. this IP: 254.198.150.19 Indicators:
 * Massive repeated requests in milliseconds
@@ -106,18 +106,18 @@ should be used in conjunction with other security tools and best practices.
 What This Suggests:
 Automated enumeration / brute force testing
 
-![alt text](..\Assets\lab6\2.png)
+![alt text](../Assets/lab6/2.png)
 
 
 
-3. Using the regrex Method to Filtering the Log to Confirm
-![alt text](..\Assets\lab6\3.png)
+3. Using the regrex Method to Filtering the Log.
+![alt text](../Assets/lab6/3.png)
 
 4. Check this User 86.236.188.85:
 + URL-encoded payloads
 + Attempting external domain injection
 + Trying path traversal / open redirect tricks 
-![alt text](..\Assets\lab6\4.png)
+![alt text](../Assets/lab6/4.png)
 
 5. Results
 
@@ -139,3 +139,130 @@ Automated enumeration / brute force testing
 
 
 ## 2) Detecting Directory Traversal Attacks 
+
+```
+What is Directory Traversal?
+Directory traversal is an attack type that the attackers leverage often to access files and directories
+ that are stored outside the web server's root directory. It involves manipulating input to be able to 
+ access files on a web server that are actually not intended to be accessible by unauthorized users. 
+ This type of attack is also known as the "dot-dot-slash" attack, and it can be used to gain unauthorized 
+ access to sensitive data or execute arbitrary code on a web server.
+
+For example, let's say a web application uses the following URL to display user profile pictures:
+
+http://example.com/profiles/picture.php?name=user1.jpg
+
+An attacker can leverage directory traversal attack to access files outside of the intended directory 
+by adding ../ to the URL. For instance, they could use the following URL to access a file outside of 
+the profiles directory: http://example.com/profiles/picture.php?name=../../etc/passwd
+
+This would give the attacker access to sensitive system files, such as the password file.
+
+Actually, at first look, it’s pretty similar to a Local File Inclusion vulnerability. The main difference 
+between the directory traversal and LFI is the source of the input. Directory traversal involves in manipulating 
+the input that is used to access files on a web server, whereas LFI involves in manipulating input that is used 
+to include local files within a web application.
+
+In a local file inclusion vulnerability, an attacker can use user input to include a file from the local file 
+system into the web application. This can allow the attacker to execute arbitrary code on the server to access the sensitive data.
+
+For example, consider a web application that includes a file based on user input, such as include($_GET['page']). 
+An attacker could manipulate the page parameter to include a sensitive file on the server, such as ../../../../etc/passwd. 
+This would allow the attacker to read the password file and gain unauthorized access to the system.
+
+In contrast, directory traversal vulnerabilities allow attackers to access files outside of the web application's root directory. 
+This can also allow them to execute arbitrary code or access sensitive data, but the attack vector is different.
+
+```
+
+Directory Traversal Possible Vectors :
+* User input
+* Cookies
+* HTTP headers
+* File upload
+* Direct requests
+* URL manipulation
+* Malicious links
+
+
+to Prevention Methods for Directory Traversal Attacks :
+* Input validation and sanitization
+* Access controls
+* Relative file paths
+* Whitelisting
+* Web application firewall
+
+
+### lab
+
+Here is the basic example for detecting these payloads on nginx access.log file;
+* /^.*"GET.*\?.*=(%2e%2e%2f).+?.*HTTP\/.*".*$/gm
+
+Basic regex that we have shared above will work with these logs but to prevent False Positive alarms it can be updated more strictly like;
+* /^.*"GET.*\?.*=(.+?(?=%2e%2e%2fetc%2f)).+?.*HTTP\/.*".*$/gm
+
+
+
+These are detection payloads for the Directory Traversal attack. For a successful exploit, 
+attacker needs to access some files. most popular ones are;
+- Linux
+
+1. /etc/issue
+2. /etc/passwd
+3. /etc/shadow
+4. /etc/group
+5. /etc/hosts
+
+- Windows
+
+1. c:/boot.ini
+2. c:/inetpub/logs/logfiles
+3. c:/inetpub/wwwroot/global.asa
+4. c:/inetpub/wwwroot/index.asp
+5. c:/inetpub/wwwroot/web.config
+6. c:/sysprep.inf
+
+
+
+### Lets Solve it!
+1. Go to Log location: /root/Desktop/QuestionFiles/Directory-Traversal/access.log
+ with CTRL + F search for payload , hear i searched “passwd” which common payload for 
+ directory traversal for linux so the line 215 th looks malicious.
+
+![alt text](../Assets/lab6/5.png)
+![alt text](../Assets/lab6/7.png)
+2. Analysis of the access logs
+
+3. User 48.124.217.56 (Fuzzing)
+
+![alt text](../Assets/lab6/6.png)
+
+4. Results 
+
+| IP Address        | Behavior Profile        | Security Status | Primary Activity                                                    |
+| ----------------- | ----------------------- | --------------- | ------------------------------------------------------------------- |
+| `234.161.112.162` | **Legitimate / Tester** |  Safe           | Account creation (`test`), snippet management, and UI browsing.     |
+| `48.124.217.56`   | **Automated Scanner**   |  Malicious      | Rapid directory brute-forcing (seeking `/webmail`, `/banca`, etc.). |
+| `119.221.17.90`   | **Automated Scanner**   |  Malicious      | High-frequency probing of common admin and financial paths.         |
+| `123.114.236.235` | **Scraper / Enumerator**|  Suspicious     | Systematic sequence of `GET` requests to discover user snippets.    |
+
+#### What date did the exploitation phase of Directory Traversal start? Format: dd/MMM/yyyy HH:mm:ss
+> **ANSWER: 23/Apr/2023 00:16:57**
+#### What is the IP address of the attacker who performed the Directory Traversal attack?
+> **ANSWER: 123.114.236.235**
+#### What was the parameter that attacked?
+> **ANSWER: uid**
+
+
+## 3) Detecting Brute Force Attacks
+
+```
+What is Brute Forcing?
+Brute forcing is a type of attack that involves attempting to guess a password or authentication token by systematically trying every possible combination of characters until the correct one is found. In the context of web attacks, brute forcing typically refers to the process of using automated tools to repeatedly submit login requests to a web application using different username and password combinations until a valid one is discovered.
+
+Brute force attacks can be used to gain unauthorized access to a system, steal sensitive information, or launch further attacks against the target or other systems. They can be particularly effective against weak or poorly protected passwords, but can also be very time-consuming and resource-intensive for the attacker, especially if the target system has implemented measures to detect and block brute force attacks.
+
+Brute force attacks are one of the simplest and most straightforward methods of attacking a web application, and it works by systematically trying every possible combination of usernames and passwords until the correct one is found. This process is typically automated using specialized software or scripts, which can try thousands or even millions of combinations per second.
+
+The basic idea behind a brute force attack is to exploit the weak or easily guessable passwords that a lot of people use especially the non-techy users, such as common dictionary words, simple number sequences, or their own names or birthdates. By systematically trying every possible combination of characters, attackers can eventually find the correct password and gain access to the target system.
+```
