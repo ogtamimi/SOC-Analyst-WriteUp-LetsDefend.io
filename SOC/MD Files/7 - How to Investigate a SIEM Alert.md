@@ -44,6 +44,8 @@ during an investigation. This is especially helpful for new analysts just starti
 As we can see, there is a phishing email alert. Let’s check it more closely.
 
 
+
+
 2. Keep the playbook in a new tab because it shows us the steps to solve this lab 
 
 ![alt text](../Assets/lab7/3.png)
@@ -57,10 +59,15 @@ we should answer the playbook Questions
 * Are there any attachment?
 
 
+
+
 3. in the alert we have the SMTP Address 
 
 ![alt text](../Assets/lab7/1.png)
 its 103.80.134.63
+
+
+
 
 4. Now we enter the Email Security section from the left sidebar to check the email content 
 
@@ -69,6 +76,10 @@ its 103.80.134.63
 Now we have the date the email was received and the content of the email.
 It includes an attached file, along with the sender and recipient addresses.
 
+
+
+
+
 5. Now let’s check if the attached file is malicious or not
 
 We download it (the password is "infected").
@@ -76,12 +87,16 @@ We download it (the password is "infected").
 ![alt text](../Assets/lab7/6.png)
 After extracting it, Windows Defender shows that it is a malicious file.
 
+
 ![alt text](../Assets/lab7/7.png)
 It says the file is a backdoor virus.
 
-If we upload the file (RECOMMENDED) to [virustotal](https://www.virustotal.com/) it shows that it is malicious software classified as a trojan.
 
 ![alt text](../Assets/lab7/9.png)
+If we upload the file (RECOMMENDED) to [virustotal](https://www.virustotal.com/) it shows that it is 
+malicious software classified as a trojan.
+
+
 
 
 6. Now we have all the information we need. Let’s start closing the alert
@@ -89,6 +104,8 @@ If we upload the file (RECOMMENDED) to [virustotal](https://www.virustotal.com/)
 ![alt text](../Assets/lab7/8.png)
 ![alt text](../Assets/lab7/10.png)
 ![alt text](../Assets/lab7/11.png)
+
+
 
 
 7. Let’s delete the email from the customer’s mailbox 
@@ -99,8 +116,14 @@ Click the delete button in the top right corner.
 
 ![alt text](../Assets/lab7/14.png)
 
+
+
+
 8. Let’s contain the user’s machine
 ![alt text](../Assets/lab7/15.png)
+
+
+
 
 9. Go to the "EDR" page and contain the user’s machine
 
@@ -113,6 +136,9 @@ Go to the EDR page and contain the user’s machine by searching for the victim�
 
 ![alt text](../Assets/lab7/19.png)
 true positive alert !!
+
+
+
 
 ### Questions :
 
