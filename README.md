@@ -28,8 +28,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 |       ├── 1 - SOC282 - Phishing Alert
 |       ├── 2 - 14 - SOC104 - Malware Detected
 |       ├── 3 - 36 - SOC104 - Malware Detected
-|       └── 4 - 83 - SOC119 - Proxy - Malicious Executable File Detected
-|
+|       ├── 4 - 83 - SOC119 - Proxy - Malicious Executable File Detected
+|       └── 5 - 85 - SOC109 - Proxy - Emotet Malware Detected
 |
 ├── LICENSE                          # MIT License
 └── README.md                        # Project overview and structure
@@ -52,7 +52,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 ## [2. 14 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2014%20-%20SOC104%20-%20Malware%20Detected.md)
 ## [3. 36 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2036%20-%20SOC104%20-%20Malware%20Detected.md)
 ## [4. 83 - SOC119 - Proxy - Malicious Executable File Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2083%20-%20SOC119%20-%20Proxy%20-%20Malicious%20Executable%20File%20Detected.md)
-
+## [5. 85 - SOC109 - Proxy - Emotet Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2085%20-%20SOC109%20-%20Emotet%20Malware%20Detected.md)
 
 
 ## 📜 License
