@@ -3,7 +3,7 @@
 
 A comprehensive collection of write-ups and study materials for the **LetsDefend SOC Analyst Learning Path**. This repository is designed to document the learning journey, provide clear explanations for various SOC concepts, and offer solutions to practical scenarios encountered during the certification process.
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 The repository is organized into structured modules, following the SOC Analyst learning path. Each module includes detailed markdown write-ups and supporting visual assets.
 
@@ -22,8 +22,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 |   |   ├── 6 - Detecting Web Attacks - 2
 |   |   ├── 7 - How to Investigate a SIEM Alert 
 |   |   ├── 8 - Malware Analysis Fundamentals
-|   |   └── 9 - Dynamic Malware Analysis
-|   |
+|   |   ├── 9 - Dynamic Malware Analysis
+|   |   └── 10 - Malicious Document Analysis
 |   |
 |   └── Labs
 |       |    
@@ -41,7 +41,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 └── README.md                        # Project overview and structure
 ```
 
-## 📝 Modules Covered
+# 📝 Modules Covered
 
 ### [1. SOC Fundamentals](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/1%20-%20SOC%20Fundamentals.md)
 ### [2. Cyber Kill Chain](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/2%20-%20Cyber%20Kill%20Chain.md)
@@ -52,15 +52,18 @@ The repository is organized into structured modules, following the SOC Analyst l
 ### [7. How to Investigate a SIEM Alert](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/7%20-%20How%20to%20Investigate%20a%20SIEM%20Alert.md)
 ### [8. Malware Analysis Fundamentals](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/8%20-%20Malware%20Analysis%20Fundamentals.md)
 ### [9. Dynamic Malware Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/9%20-%20Dynamic%20Malware%20Analysis.md)
-## 📝 Labs Covered
+### [10. Malicious Document Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/10%20-%20Malicious%20Document%20Analysis.md)
 
-## [1. SOC282 - Phishing Alert](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%20SOC282%20-%20Phishing%20Alert.md)
-## [2. 14 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2014%20-%20SOC104%20-%20Malware%20Detected.md)
-## [3. 36 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2036%20-%20SOC104%20-%20Malware%20Detected.md)
-## [4. 83 - SOC119 - Proxy - Malicious Executable File Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2083%20-%20SOC119%20-%20Proxy%20-%20Malicious%20Executable%20File%20Detected.md)
-## [5. 85 - SOC109 - Proxy - Emotet Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2085%20-%20SOC109%20-%20Emotet%20Malware%20Detected.md)
-## [6. 84 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2084%20-%20SOC104%20-%20Malware%20Detected.md)
-## [7. 92 - SOC145 - Ransomware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2092%20-%20SOC145%20-%20Ransomware%20Detected.md)
+
+
+# 📝 Labs Covered
+
+### [2. 14 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2014%20-%20SOC104%20-%20Malware%20Detected.md)
+### [3. 36 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2036%20-%20SOC104%20-%20Malware%20Detected.md)
+### [4. 83 - SOC119 - Proxy - Malicious Executable File Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2083%20-%20SOC119%20-%20Proxy%20-%20Malicious%20Executable%20File%20Detected.md)
+### [5. 85 - SOC109 - Proxy - Emotet Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2085%20-%20SOC109%20-%20Emotet%20Malware%20Detected.md)
+### [6. 84 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2084%20-%20SOC104%20-%20Malware%20Detected.md)
+### [7. 92 - SOC145 - Ransomware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2092%20-%20SOC145%20-%20Ransomware%20Detected.md)
 
 
 ## 📜 License
