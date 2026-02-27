@@ -1,485 +1,349 @@
-# LECTURE1: SOC Fundamentals 
-## 1) Introduction to SOC
+# LECTURE 1: SOC Fundamentals  
+
+---
+
+## 1) Introduction to SOC  
 
 > **ANSWER: CHECK**
 
-## 2) SOC Types and Roles
+---
 
+## 2) SOC Types and Roles  
 
-What is a SOC?
-A Security Operation Center (SOC) is a facility where the information security team 
-continuously monitors and analyzes the security of an organization. The primary 
-purpose of the SOC team is to detect, analyze, and respond to cybersecurity incidents 
-using technology, people, and processes.
+### What is a SOC?
 
+A Security Operations Center (SOC) is a centralized facility where the information security team continuously monitors and analyzes an organization's security posture.  
 
+The primary purpose of a SOC team is to detect, analyze, and respond to cybersecurity incidents using a combination of **technology, people, and processes**.
 
-Types of SOC Models
+---
 
-Depending on your security needs and budget, there are several types of SOCs:
+### Types of SOC Models  
+
+Depending on an organization's security needs and budget, several SOC models can be implemented:
 
 ![Image 1](../Assets/SOC_Fundamentals/1.png)
 
-In-house SOC
-This team is formed when an organization builds its cybersecurity team. 
-Organizations considering an internal SOC should have a budget to support its continuity.
+#### In-house SOC  
+An internal SOC is built and managed by the organization itself.  
+Organizations choosing this model must allocate sufficient budget and resources to maintain continuous operations.
 
-Virtual SOC
-This type of SOC team does not have a permanent facility and often works remotely in various locations.
+#### Virtual SOC  
+A Virtual SOC does not operate from a fixed location. Team members typically work remotely from different geographic locations.
 
-Co-Managed SOC
-The Co-Managed SOC consists of internal SOC staff working with an external Managed 
-Security Service Provider (MSSP). Coordination is key in this type of model.
+#### Co-Managed SOC  
+This model consists of internal SOC staff working alongside an external Managed Security Service Provider (MSSP).  
+Strong coordination and communication are critical in this structure.
 
-Command SOC
-This SOC team oversees smaller SOCs across a large region. Organizations using this 
-model include large telecommunications providers and defense agencies.
+#### Command SOC  
+A Command SOC oversees multiple smaller SOCs across a wide region.  
+This model is commonly used by large telecommunications providers and defense agencies.
 
+---
 
-People, Process, and Technology
-Building a successful SOC requires serious coordination. Most importantly, there 
-should be a strong relationship between people, processes, and technology.
+## People, Process, and Technology  
 
-Simply put, we will discuss the people, processes, and technologies required for SOC.
+Building a successful SOC requires strong coordination between:
 
-People
-A strong SOC team requires highly trained personnel who are familiar with security 
-alerts and attack scenarios. Because attack types are constantly changing, you need 
-team members who can easily adapt to new attack types and are willing to conduct research.
+- **People**
+- **Processes**
+- **Technology**
 
-Processes
-To further develop your SOC structure, you need to align it with many different types of 
-security requirements, such as NIST, PCI, and HIPAA. All processes require extreme standardization
- of actions to ensure nothing is left out.
+These three pillars must work together effectively.
 
-Technology
-The team needs to have different products for many tasks, such as penetration testing, 
-detection, prevention, and analysis, and they need to follow the market and technology 
-closely to find the best solution for the organization. Sometimes the best product on the 
-market may not be the best product for your team. Remember to consider other factors such as the 
-organization's budget.
+### People  
+A strong SOC team requires highly trained professionals who understand security alerts and attack techniques.  
+Since threats constantly evolve, team members must adapt quickly and conduct continuous research.
 
+### Processes  
+SOC processes should align with industry standards such as **NIST, PCI-DSS, and HIPAA**.  
+Standardization ensures consistency and prevents critical steps from being overlooked.
 
-SOC Roles
-SOC Analyst
-This role can be categorized as Level 1, 2, and 3 according to the SOC structure. A security 
-analyst classifies the alert, looks for the cause, and advises on remediation.
+### Technology  
+SOC teams rely on multiple tools for detection, prevention, testing, and analysis.  
+The most expensive or popular product is not always the best choice — solutions must align with the organization’s needs and budget.
 
-Incident Responder
-An Incident Response Officer is an individual responsible for threat detection. This role performs
-the initial assessment of security breaches.
+---
 
-Threat Hunter
-A Threat Hunter is a cybersecurity professional who proactively seeks out and investigates potential 
-threats and vulnerabilities within an organization's network or system. They use a combination of manual 
-and automated techniques to detect, isolate, and mitigate advanced persistent threats (APTs) and other 
-sophisticated attacks that may evade traditional security measures. Threat hunters typically have a deep 
-understanding of the organization's IT infrastructure and security posture, as well as knowledge of emerging 
-threats and attack tactics. They aim to find and eliminate threats before they can damage or disrupt the business.
+## SOC Roles  
 
-Security Engineer
-Security engineers are responsible for maintaining the security infrastructure of Security 
-Information and Event Management (SIEM) solutions and security operations center (SOC) products. 
-For example, a security engineer builds the connection between SIEM and Security Orchestration, 
-Automation, and Response (SOAR) products.
+### SOC Analyst  
+SOC Analysts are typically categorized into Level 1, Level 2, and Level 3.  
+They classify alerts, determine root causes, and recommend remediation steps.
 
-SOC Manager
-A SOC manager takes on management responsibilities such as budgeting, strategizing, managing staff, 
-and coordinating operations. They deal with operational rather than technical issues.
+### Incident Responder  
+Responsible for responding to and managing security breaches.  
+They perform initial assessments and coordinate containment efforts.
+
+### Threat Hunter  
+A cybersecurity professional who proactively searches for hidden threats and vulnerabilities.  
+They investigate advanced persistent threats (APTs) and sophisticated attacks that may bypass traditional defenses.
+
+### Security Engineer  
+Responsible for maintaining and integrating security infrastructure such as SIEM and SOAR solutions.  
+They ensure tools are properly configured and connected.
+
+### SOC Manager  
+Oversees budgeting, staffing, and strategic planning.  
+Focuses on operational management rather than technical investigation.
 
 > **ANSWER: CHECK**
 
-## 3) SOC Analyst and Their Responsibilities
+---
 
+## 3) SOC Analyst and Their Responsibilities  
 
-A SOC Analyst is the first person to investigate threats to a system. If the situation demands it, they 
-escalate incidents to their supervisors so they can mitigate threats. The SOC Analyst plays an important 
-role on the SOC team because they are the first person to respond to a threat.
+A SOC Analyst is typically the first person to investigate system threats.  
+If necessary, incidents are escalated to higher-level analysts or supervisors.
 
+They play a critical role because they are the first line of defense.
 
-The Advantages of Being a SOC Analyst
-There are many various techniques for attack vectors and malicious software and they increase more and more every day. 
-As an analyst you will get greater enjoyment from investigating these varying types of incidents. 
-Even though the operating systems, security products, etc.
+---
 
-A Day in the Life of a SOC Analyst
-Throughout the day, a SOC analyst typically reviews alerts in the SIEM and determines 
-which ones are real threats. To reach a conclusion, they use various security and protection products 
-such as Endpoint Detection and Response (EDR), Log Management, and SOAR.
+### A Day in the Life of a SOC Analyst  
 
-## To be a successful SOC analyst who is not dependent on security products and can correctly 
-analyze SIEM alerts, you must have the following skills and abilities.
+Throughout the day, a SOC analyst:
 
+- Reviews SIEM alerts  
+- Determines whether alerts are true positives or false positives  
+- Uses tools like EDR, Log Management, and SOAR to investigate  
 
-Operating Systems
-To determine what is abnormal in a system, you first need to know what is accepted as normal. 
-For example, there are many services within the Windows operating system, and it is difficult to 
-know which ones are suspicious without knowing which ones are or could be considered normal Windows services. 
-Therefore, you should be familiar with how Windows/Linux operating systems work.
+---
 
-Network
-First and foremost, in this role, you will be dealing with a lot of malicious IPs and URLs, 
-so you need to confirm that there are no devices on the network trying to connect to those addresses. 
-Once you accomplish that, it will set the direction of the analysis.
+## Required Skills for a SOC Analyst  
 
-This step is a bit more complicated because you may have to find a potential data leak on the network. 
-To perform all of these functions, you need to understand the basics of networking.
+### Operating Systems  
+Understanding Windows and Linux systems is essential.  
+You must know what is considered normal behavior before identifying suspicious activity.
 
-Malware Analysis
-When dealing with most threats, you are likely to encounter some type of malicious software. 
-To understand the real purpose of these malicious programs (they sometimes display different 
-behaviors to fool analysts), you need to have malware analysis skills.
+### Networking  
+SOC analysts frequently investigate malicious IPs and URLs.  
+Understanding networking fundamentals helps detect data leaks and suspicious communications.
 
-It is important to at least determine what the command-and-control center of the malicious file is 
-and whether or not there is a device communicating with that address.
-
-In general, we have discussed what a SOC analyst is, what the responsibilities of the role are, 
-and what skills a SOC Analyst needs to have. As the course progresses, it will also cover technical areas, starting with SIEM.
-
+### Malware Analysis  
+Analysts must understand malicious software behavior.  
+They should identify command-and-control (C2) communications and determine the malware’s objective.
 
 > **ANSWER: CHECK**
-## 4) SIEM and Analyst Relationship
-This lesson discusses what SIEM is, why it is used in a SOC, and how SIEM relates to the SOC analyst.
 
-What is SIEM?
-SIEM is a security solution that combines security information and event management, which involves real-time 
-logging of events in an environment. The ultimate purpose of event logging is to detect security threats.
+---
 
-Overall, SIEM products have a lot of features. The ones that interest us most as SOC analysts are those that 
-collect and filter data and provide alerts for suspicious events.
+## 4) SIEM and Analyst Relationship  
 
-Example alert: If someone on a Windows operating system tries to enter 20 incorrect passwords in 10 seconds, 
-this is suspicious activity. It is unlikely that someone who has forgotten their password would try to re-enter 
-it that many times in such a short period of time. So we create a SIEM rule/filter to detect such activity that 
-exceeds the threshold. Based on this SIEM rule, an alert will be generated when such a situation occurs.
+### What is SIEM?
+
+SIEM (Security Information and Event Management) is a security solution that provides real-time logging and event analysis to detect threats.
+
+Its core function is to collect, filter, and generate alerts for suspicious activities.
+
+Example:  
+If someone enters 20 incorrect passwords within 10 seconds, a SIEM rule may trigger an alert.
 
 ![Image 2](../Assets/SOC_Fundamentals/2.png)
 
-
-Some popular SIEM solutions: IBM QRadar, ArcSight ESM, FortiSIEM, Splunk, etc. To get a better picture, 
+Popular SIEM solutions include:
+- IBM QRadar  
+- ArcSight ESM  
+- FortiSIEM  
+- Splunk  
 
 ![Image 3](../Assets/SOC_Fundamentals/3.png)
 
+---
 
-Relationship Between a SOC Analyst and SIEM
-Although SIEM solutions have many features, SOC analysts typically only track alerts. There are other 
-groups/people responsible for developing configurations and rule correlations.
+### Relationship Between SOC Analyst and SIEM  
 
-As mentioned above, alerts are generated from data that passes through filters. Alerts are first analyzed 
-by a SOC analyst. This is where a SOC analyst's job in the security operations center begins. In essence, 
-they have to determine whether the generated alert is a real threat or a false alert.
+SOC analysts primarily monitor and analyze alerts generated by SIEM.
 
-For a better understanding, let's go back to the "Monitoring" page; as you can see below, there are various 
-alerts on the SIEM interface. A SOC analyst should analyze the details related to these alerts with the help of 
-other SOC products (such as EDR, Log Management, Threat Intelligence Feed, etc.) and ultimately determine whether they
-are real threats or not.
+Alerts appear in the **Main Channel**, and analysts can take ownership of alerts to begin investigation.
 
 ![Image 4](../Assets/SOC_Fundamentals/4.png)
 
+When closing an alert:
 
-
-You can view newly created alerts in the "Main Channel" and think of this channel as a shared channel. 
-Your teammates are not visible in this simulation, but in a real work scenario, your teammates will be 
-able to see this panel. After you select the alert you want to work on, click the Take Ownership button in the 
-Action area to take ownership of the alert and direct it to 
-the Investigation Channel. This way, your teammates can see which alert you are actively working on. 
-At the same time, this will help them see which alerts you are already working on so they can select other alerts. 
-This way, your team can quickly review all alerts.
-
-When you click on the alert, you can see the details of the alert. This allows you to gather the 
-information (hostname, IP address, file hash information, etc.) required to investigate.
-
-Quick Tip
-Note that from time to time, false alerts may be generated in the SIEM. A good SOC analyst would be able 
-to identify such situations and provide feedback to the team, thereby contributing to the efficiency of the SOC team.
-
-Example:
-Let's say that an SIEM team has put together a rule set that generates alerts for URL addresses that have 
-the word "union" in them and is trying to detect SQL injections.
-
-A user did a search using "https://www.google.com/search?q=sql+union+usage", and an alert was created in the SIEM, 
-it looks like there is no obvious threat. The alert was generated because the keyword "union" was included in the URL. 
-These types of anomalies can be shared with the SIEM team to optimize the alerting process.
-
-### When you close an alert, which channel(tab on the monitoring page) can you access it from?Top of FormBottom of Form
+### When you close an alert, which channel can you access it from?
 > **ANSWER: Closed Alerts**
 
-## 5) Log Management
-The remainder of this lesson discusses how "Log Management" solutions can be used effectively by SOC analysts.
+---
 
-What is Log Management?
-As the name implies, Log Management provides access to all logs in an environment 
-(web logs, OS logs, firewall, proxy, EDR, etc.) and allows you to manage them in one place. 
-This increases efficiency and saves time.
+## 5) Log Management  
 
-If you can't access the logs from one place, then the same request (e.g., the goal is to determine 
-all users on letsdefend.io) would have to be sent to different devices. This would increase your
-margin for error and the amount of time you would need to spend.
+### What is Log Management?
 
-If you go to the 'Log Management' page in LetsDefend, you will see various log sources such as Proxy, 
-Exchange, and Firewall listed as  Type . This means that all these log sources have been collected in 
-one place and log output from sources like Proxy, FW, etc. can be seen with just one query.
+Log Management centralizes logs from multiple sources:
+- Web logs  
+- OS logs  
+- Firewall logs  
+- Proxy logs  
+- EDR logs  
+
+This improves efficiency and reduces errors.
 
 ![Image 5](../Assets/SOC_Fundamentals/5.png)
 
+---
 
+### Practical Investigation Examples  
 
+Searching logs helps determine:
+- Whether devices communicated with a malicious IP
+- Whether other endpoints are affected
 
+---
 
-Purpose of Log Management
-SOC analysts typically rely on Log Management to determine if there is any communication with a particular 
-address and to view the details of that communication. Let's say you came across a piece of malware and after 
-running it, you found that it was communicating with and executing commands from the "letsdefend.io" address. 
-In this situation, the command&control center is "letsdefend.io", you can search for "letsdefend.io" in your 
-company's log management to see if any devices have attempted to communicate with the command&control center.
+### Questions  
 
-This leaves us with a second situation: You see a SIEM alert indicating that a LetsDefendHost device on your 
-network is leaking data to IP address 122[.]194[.]229[.]59. You have conducted an investigation, isolated the 
-device from the network, performed the necessary processes, and now you are in control. But there's still something 
-you haven't addressed: are there any other devices sending data to the suspicious IP address (122[.]194[.]229[.]59)? 
-The alert may have only included LetsDefendHost, but you should still search for the suspicious address in Log 
-Management to see if there is anything the system may not 
-have detected and try to find any connections.
-
-
-### What source IP address entered the URL 'https://github.com/apache/flink/compare'?
+What source IP address entered the URL `https://github.com/apache/flink/compare`?  
 > **ANSWER: 172.16.17.54**
-### What is the type of log that has a destination port number of 52567 and a source IP address of 8.8.8.8?
+
+What is the type of log with destination port 52567 and source IP 8.8.8.8?  
 > **ANSWER: DNSTop**
 
-## 6) EDR - Endpoint Detection and Response
-A SOC analyst must spend a significant amount of time using EDR when performing analysis on an endpoint device. 
-The following sections discuss why EDR is beneficial to SOC analysts and how to use it effectively.
+---
 
-What is EDR?
-Endpoint Detection and Response (EDR), also known as Endpoint Threat Detection and Response (ETDR), is an 
-integrated endpoint security solution that combines continuous, real-time monitoring and collection of endpoint 
-data with rules-based automated response and analysis capabilities. (Definition source: mcafee.com)
+## 6) EDR – Endpoint Detection and Response  
 
-Analysis with EDR
-Some EDR solutions commonly used in the workplace: CarbonBlack, SentinelOne, and FireEye HX.
+EDR solutions monitor endpoint devices and provide detection and response capabilities.
+
+Common EDR tools:
+- Carbon Black  
+- SentinelOne  
+- FireEye HX  
 
 ![Image 6](../Assets/SOC_Fundamentals/6.png)
 
+EDR provides:
+- Process lists  
+- Browser history  
+- Network connections  
+- Live investigation access  
 
-As you can see in the image, the accessible endpoint devices are listed on the left. 
-You can search for endpoints in the search bar, or if there is an IOC (an IP address, file hash, 
-process name, etc.), we can perform a search across all hosts.
-
-The right side displays general information about the device and shows sections such as Browser 
-History, Network Connections, and Process List.
-
-![Image 7](../Assets/SOC_Fundamentals/7.png)
+![Image 7](../Assets/SOC_Fundamentals/7.png)  
 ![Image 8](../Assets/SOC_Fundamentals/8.png)
 
-Live Investigation
-Next, you can click the Connect button and access the machine itself to continue the analysis.
+### Live Investigation  
+
+You can remotely connect to a device for deeper analysis.
 
 ![Image 9](../Assets/SOC_Fundamentals/9.png)
 
-Containment
-You need to isolate a hacked machine from the network. There are two important reasons for doing this: 
-to prevent the attacker from connecting to the internal network and moving around the internal network.
+### Containment  
 
-Therefore, the device should be isolated from the internal and external networks until the vulnerabilities 
-are repaired and the device is ready for use. You can ensure isolation by using the containment feature of 
-EDR solutions. This feature allows the selected device to communicate solely with the EDR center. This means that 
-even though the device is isolated from the network, you can continue your analysis.
+Compromised devices should be isolated to prevent lateral movement.
 
 ![Image 10](../Assets/SOC_Fundamentals/10.png)
 
-Quick Tip
-If you have any type of IOC, such as a file hash, file name, etc., you can perform a search in EDR across 
-all hosts and see if there is a match. For example, let's say you are certain that a device has been hacked 
-and you have obtained a file with an MD5 hash of "ac596d282e2f9b1501d66fce5a451f00". You can search for this 
-hash value in EDR and determine whether this file 
-exists or is being executed on other devices. This will help you understand who has been affected by this attack.
+---
 
-Conclusion
-We covered the basics of EDR, which you will use just as often as Log Management. In the past, 
-we have seen analysts fail to use EDR solutions effectively, so spending some time on this topic will put you one step ahead of the crowd.
+### Questions  
 
-Please remember to go to " Endpoint Security   to practice, and then review the alerts on the  Monitoring  page.
-
-In the next section, we will discuss how to speed up the analysis process with SOAR.
-
-
-### What is the hostname of the device where the "nmap" file with a hash value of "83e0cfc95de1153d405e839e53d408f5" is executed?
+Hostname where "nmap" file with hash `83e0cfc95de1153d405e839e53d408f5` executed?  
 > **ANSWER: EricProd**
-### A "Ps1.hta" file was executed on a device with the hostname "Roberto". What is the complete CMD command?
+
+Complete CMD command executed on "Roberto" for `Ps1.hta`?  
 > **ANSWER: C:/Windows/System32/mshta.exe C:/Users/roberto/Desktop/Ps1.hta**
 
+---
 
-## 7) SOAR (Security Orchestration Automation and Response)
-SOAR stands for Security Orchestration Automation and Response. It enables security products 
-and tools in an environment to work together, streamlining the tasks of SOC team members. For example, 
-it will automatically search VirusTotal for the source IP of a SIEM alert, reducing the workload of the SOC analyst.
+## 7) SOAR (Security Orchestration, Automation, and Response)
 
-Some SOAR products commonly used in the industry:
-* Splunk Phantom
-* IBM Resilient
-* Logsign
-* Demisto
-The image below shows what can be achieved with a SOAR solution.
-![Image 11](../Assets/SOC_Fundamentals/11.jpg)
-image: hawk-eye.io
+SOAR integrates security tools and automates workflows.
 
-The benefits of SOAR and how you can effectively use SOAR as a SOC analyst will be the focus of the rest of this lesson.
+Common SOAR tools:
+- Splunk Phantom  
+- IBM Resilient  
+- Logsign  
+- Demisto  
 
-
-Saves You Time
-SOAR saves time with workflows that automate processes. Some common workflows are:
-
-* IP address reputation control
-* Hash query
-* Scanning an acquired file in a sandbox environment
-Centralization (A single platform for everything you need)
-It allows you to use different security tools in your environment (sandbox, log management, 
-3rd party tools, etc.) by providing an all-in-one software. These tools are integrated into the SOAR solution and can be used on the same platform.
-
+![Image 11](../Assets/SOC_Fundamentals/11.jpg)  
 ![Image 12](../Assets/SOC_Fundamentals/12.png)
-image: splunk.com
 
+### Benefits:
+- Saves time through automation  
+- Centralizes tools  
+- Standardizes investigations using playbooks  
 
-
-Playbooks
-You can easily investigate SIEM alerts using playbooks created for different scenarios within SOAR. 
-Even if you don't know or remember all the procedures, you can perform an analysis by following the steps outlined in the playbooks
-
-In addition, these playbooks help ensure that the entire SOC team is on the same page when performing 
-their analysis. For example, all team members need to check IP reputation, so if one team member is not checking 
-it and the others are, this is an undesirable situation. We can avoid this situation by adding this step to the playbook.
-
-LetsDefend and SOAR
-You can think of "Case Management" as the same as SOAR. On the SIEM (monitoring) page, you can open tickets 
-for the cases you created. When you look at the page, the first thing you see is a list of open and closed cases.
-![Image 13](../Assets/SOC_Fundamentals/13.png)
-
-
-If you click on any open case, you will see an automatically assigned playbook. You can investigate 
-the associated SIEM (monitoring) alert following this playbook.
-
+![Image 13](../Assets/SOC_Fundamentals/13.png)  
 ![Image 14](../Assets/SOC_Fundamentals/14.png)
-
-So far, we have covered what a SOAR solution is, how it is used in a SOC environment, and how it benefits 
-SOC analysts in general. In the next lesson, we will explore threat intelligence and how it relates to a SOC analyst.
 
 > **ANSWER: CHECK**
 
+---
 
+## 8) Threat Intelligence Feed  
 
-## 8) Threat Intelligence Feed
-A SOC team should be immediately aware of the latest threats and take the necessary precautions. To meet this need, 
-threat intelligence feeds are created. As a SOC analyst, you can use these feeds to guide your investigations.
+Threat Intelligence Feeds provide indicators such as:
+- File hashes  
+- Malicious IP addresses  
+- C2 domains  
 
-A Threat Intelligence Feed is data (such as malware hashes, C2 (Command&Control) domain/IP addresses etc.) provided by a third party company.
-
-Looking at LetsDefend's Threat Intel page, you can see many types of data (hash, IP, etc.)
 ![Image 15](../Assets/SOC_Fundamentals/15.png)
 
+Free sources:
+- VirusTotal  
+- Talos Intelligence  
 
+Important reminder:
+- A clean result does NOT guarantee safety.
+- IP addresses can change ownership.
 
+> **ANSWER: AbuseCH**
 
-The data here consists of artifacts from previous malicious activity. It could be the hash of malware or 
-the IP address of a command and control center. As a SOC analyst, you need to search threat intelligence 
-feeds to determine if a hash file at hand has ever been used in a malicious scenario in the past.
+---
 
-Here are some free and popular sources you can use:
-* VirusTotal
-* Talos Intelligence
+## 9) Common Mistakes Made by SOC Analysts  
 
+Common mistakes include:
 
-Important points to highlight:
-
-If data you run through feeds does not show up
-Let's say you ran a hash of an .exe in VirusTotal and in the past you didn't find anything suspicious about it. 
-In this case, you should not just assume that the file is clean, that would be a mistake. A SOC analyst should 
-carefully perform the necessary file analysis (static/dynamic).
-
-We shouldn't forget that IP addresses can change hands.
-For example, let's say an attacker created a server on AWS (Amazon Web Services) and used it as a command and control center. 
-Then various threat intelligence feeds listed that IP address as a malicious address.
-
-
-### 2 months later, the attacker shut down the server and someone else moved their personal blog to that server. This doesn't mean that people who visited the blog were exposed to malicious content. The fact that this IP address has been used for malicious purposes in the past does not mean that it contains malicious content.
-> **ANSWER:  AbuseCH**
-
-
-## 9) Common Mistakes made by SOC Analysts
-Like everyone else, SOC analysts can make mistakes. In this section, we will discuss common mistakes made by SOC analysts and how to avoid making them yourself.
-
-* Over-reliance on VirusTotal Results
-* Hasty Analysis of Malware in a Sandbox
-* Inadequate Log Analysis
-* Overlooking VirusTotal Dates
-
-It is recommended that you review this lesson after you have completed the previous lessons in this course.
-
-Over-reliance on VirusTotal Results
-Sometimes we can rely on the result displayed on VirusTotal's green screen after analyzing a file s 
-URL and seeing that the address is harmless. However, there is a new malicious software developed using 
-an AV (AntiVirus) bypass technique that may not be detected by VT (VirusTotal). For this reason, 
-we should accept VirusTotal as a supporting tool and perform our analyses with this in mind.
-
-Here's a detailed blog post on the subject for further reading:VirusTotal is not an Incident Responder
-
-Hasty Analysis of Malware in a Sandbox
-A 3-4 minute analysis in a sandbox environment may not always yield accurate results. Here are the reasons why:
-
-Malware might be able to detect a sandbox environment and will not activate itself.
-Malware may not become active for 10 to 15 minutes after the operation is performed.
-
-For this reason, the duration of the analysis should be kept as long as possible and it should take place 
-in a real environment, if possible.
-
-Inadequate Log Analysis
-Occasionally we see that some log analysis is not performed properly. For example, let's say that a piece 
-of malware has been detected on a machine with the hostname "LetsDefend", and that malware is secretly sending 
-data to the address "letsdefend.io". As a SOC analyst, you should use Log Management solutions to determine if 
-any other device is also attempting to connect to this address.
-
-Overlooking VirusTotal Dates
-If the search you performed in VirusTotal has already been queried, a result from the cache will be displayed. 
-For example: We searched the address "letsdefend.io" in VirusTotal and the result is shown below.
+- Over-reliance on VirusTotal  
+- Rushed sandbox analysis  
+- Poor log analysis  
+- Ignoring VirusTotal cache dates  
 
 ![Image 16](../Assets/SOC_Fundamentals/16.png)
 
-
-An attacker could simply search a clean URL on VirusTotal and replace it with malicious content. This is why you 
-should not just look at the search cache, but conduct a new search.
-
-
 > **ANSWER: CHECK**
 
+---
 
-## 10) Quiz 
+## 10) Quiz  
 
-### Which type of SOC team does not have its own facility and often works remotely in different locations?
+Virtual SOC works remotely?  
 > **ANSWER: Virtual SOC**
-### I am responsible for connecting security products. My job title is ...
-> **ANSWER: Security engineer**
-### What is SOC?
+
+Responsible for connecting security products?  
+> **ANSWER: Security Engineer**
+
+What is SOC?  
 > **ANSWER: Security Operation Center**
-### Which tool is the most important for a SOC analyst?
+
+Most important tool?  
 > **ANSWER: All of this, and much more**
-### Which type of SOC model corresponds to the following definition: "consists of internal SOC personnel working with an external Managed Security Service Provider"?
+
+Internal + MSSP model?  
 > **ANSWER: Co-Managed SOC**
-### Which SOC position corresponds to the following definition: "A team member whose purpose is to find vulnerabilities before the attacker can exploit them in an attack."?
+
+Find vulnerabilities before attackers?  
 > **ANSWER: Threat Hunter**
-### What is the goal of a SIEM?
-> **ANSWER: To provides the real time logging of events in an environment.**
-### Which LetsDefend's page is the SIEM?
+
+Goal of SIEM?  
+> **ANSWER: To provide real-time logging of events in an environment.**
+
+LetsDefend SIEM page?  
 > **ANSWER: Monitoring**
-### What is an EDR?
-> **ANSWER: A software that monitor the terminals (computers, servers, tablets, phones...) and not the information system network.**
-### What are the different steps of the lifecycle for the NIST, of a incident?
-> **ANSWER: Monitoring**
-### What are the different steps of the lifecycle for the NIST, of a incident?
-> **ANSWER: Preparation, Detection/Analysis, Containment / Eradicationand Recovery, Post-Event Activity**
-### What are the different steps of the lifecycle for the NIST, of a incident?
-> **ANSWER: Playbook**
-### Which information do you not have in the Threat Intelligence Feed?
+
+What is EDR?  
+> **ANSWER: Software that monitors endpoint devices rather than the entire network.**
+
+NIST Incident Lifecycle?  
+> **ANSWER: Preparation, Detection/Analysis, Containment/Eradication and Recovery, Post-Incident Activity**
+
+Threat Intelligence Feed does NOT provide?  
 > **ANSWER: A sample of the infected file**
-### Which is a common mistake for SOC analysts?
+
+Common mistake?  
 > **ANSWER: Insufficient log analysis**
+
+---
+
 # 100% CORRECT
