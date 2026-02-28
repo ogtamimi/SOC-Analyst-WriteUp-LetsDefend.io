@@ -117,9 +117,6 @@ Some popular IPS products used within the cybersecurity industry are as follows:
 
 
 
-#### 
->**ANSWER: **
-
 # 4) Firewall
 
 A firewall is a security software or hardware that monitors incoming and outgoing network traffic according to the rules it contains and allows the passage of network packets or prevents the passage of packets according to the nature of the rule.
@@ -139,3 +136,79 @@ A firewall is a security software or hardware that monitors incoming and outgoin
 | Stateful Multi-Layer Inspection (SMLI) Firewall | Firewall capable of packet inspection and TCP handshake verification while tracking connection states. | Multi-Layer | Stateful inspection, connection tracking | More secure than basic packet filtering | More complex configuration |
 | Threat-Focused NGFW | Enhanced NGFW with advanced threat detection and faster response capabilities. | Multi-Layer | Advanced threat detection, full attack lifecycle monitoring | Faster detection and remediation | Higher cost and complexity |
 | Unified Threat Management (UTM) Firewall | Stateful firewall integrated with antivirus and intrusion prevention features. | Multi-Layer | Antivirus + IPS + firewall in one solution | All-in-one security solution | May become performance bottleneck if overloaded |
+
+![alt text](../Assets/lab11/4.2.gif)!
+
+![alt text](../Assets/lab11/4.3.gif)!
+
+### Some popular Firewall products used in the cybersecurity industry are as follows:
+* Fortinet
+* Palo Alto Networks
+* SonicWall
+* Checkpoint
+* Juniper
+* pfsense
+* Sophos
+
+#### What is the action taken according to the given firewall log?
+>**ANSWER: deny**
+
+![alt text](../Assets/lab11/4.4.png)
+
+#### What is the source IP address according to the given firewall log?
+>**ANSWER: 192.168.68.12**
+
+![alt text](../Assets/lab11/4.5.png)
+
+#### What is the destination port number according to the given firewall log?
+>**ANSWER: 143**
+
+![alt text](../Assets/lab11/4.6.png)
+
+#### According to the given Windows Defender Firewall log, what is the IP address that sends the TCP segment whose source port is 5421?
+>**ANSWER: 192.168.1.9**
+
+![alt text](../Assets/lab11/4.7.png)
+
+#### According to the given Windows Defender Firewall log, which network protocol do the logs associated with the "8.8.8.8" IP address belong to?
+>**ANSWER: ICMP**
+
+![alt text](../Assets/lab11/4.8.png)
+
+
+# 5) Endpoint Detection and Response (EDR)
+
+Endpoint Detection and Response (EDR) is a security product that is installed on endpoint-qualified devices, constantly monitors the activities in the system, tries to detect security threats such as ransomware & malware, and takes action against malicious activities.
+
+
+### Endpoint Devices :
+
+![alt text](../Assets/lab11/5.1.png)
+
+The duties of EDR products are generally as follows:
+
+1. Monitoring and collecting each process on the device that may identify a security threat
+1. Analyzing the behavior of threat actors according to the data collected on the device
+1. Informing the relevant analyst by taking the appropriate security action against the threat actor obtained from the collected data.
+1. Allow forensic analysis on the device to conduct in-depth investigation of suspicious activities
+
+```
+Some popular EDR products used within the cybersecurity industry are as follows:
+- SentinelOne
+- Crowdstrike
+- CarbonBlack
+- Palo Alto
+- FireEye HX
+```
+
+#### What is the name of the powershell script that is tried to be downloaded according to the given Crowdstrike EDR log?
+>**ANSWER: Invoke-Mimikatz**
+#### According to the given Crowdstrike EDR log, what is the name of the MITRE technique used by the attacker?
+>**ANSWER: OS Credential Dumping**
+#### According to the given Crowdstrike EDR log, what is the name and extension of the file that the attacker is trying to download onto the system?
+>**ANSWER: Get-System.ps1**
+#### What is the severity of the alert based on the given Crowdstrike EDR log?
+>**ANSWER: High**
+
+
+
