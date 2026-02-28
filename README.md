@@ -1,8 +1,13 @@
 ![Banner](/SOC/Assets/banner.png)
 # Lets Defend - SOC Analyst Learning Path Write-Ups
 
-A comprehensive collection of write-ups and study materials for the **LetsDefend SOC Analyst Learning Path**. This repository is designed to document the learning journey, provide clear explanations for various SOC concepts, and offer solutions to practical scenarios encountered during the certification process.
+A comprehensive collection of write-ups and study materials for the **LetsDefend SOC Analyst Learning Path**. 
+This repository is designed to document the learning journey, provide clear explanations for various SOC concepts, 
+and offer solutions to practical scenarios encountered during the certification process.
+
+
 ![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 # 📁 Repository Structure
 
 The repository is organized into structured modules, following the SOC Analyst learning path. Each module includes detailed markdown write-ups and supporting visual assets.
