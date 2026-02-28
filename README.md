@@ -23,8 +23,11 @@ The repository is organized into structured modules, following the SOC Analyst l
 |   |   ├── 7 - How to Investigate a SIEM Alert 
 |   |   ├── 8 - Malware Analysis Fundamentals
 |   |   ├── 9 - Dynamic Malware Analysis
-|   |   └── 10 - Malicious Document Analysis
+|   |   ├── 10 - Malicious Document Analysis
+|   |   └── 11 - Security Solutions
 |   |
+|   |
+|   |     
 |   └── Labs
 |       |    
 |       ├── 1 - SOC282 - Phishing Alert
@@ -53,7 +56,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 ### [8. Malware Analysis Fundamentals](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/8%20-%20Malware%20Analysis%20Fundamentals.md)
 ### [9. Dynamic Malware Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/9%20-%20Dynamic%20Malware%20Analysis.md)
 ### [10. Malicious Document Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/10%20-%20Malicious%20Document%20Analysis.md)
-
+### [11. Security Solutions](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/11%20-%20Security%20Solutions.md)
 
 
 # 📝 Labs Covered

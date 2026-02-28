@@ -1,4 +1,4 @@
-# Malicious Document Analysis  
+# LECTURE10: Malicious Document Analysis  
 
 # 1) Introduction to Malicious Document File Analysis  
 #### [Youtube Link](https://youtu.be/Q9MhydfhzzY)
