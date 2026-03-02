@@ -178,7 +178,9 @@ A firewall is a security software or hardware that monitors incoming and outgoin
 
 # 5) Endpoint Detection and Response (EDR)
 
-Endpoint Detection and Response (EDR) is a security product that is installed on endpoint-qualified devices, constantly monitors the activities in the system, tries to detect security threats such as ransomware & malware, and takes action against malicious activities.
+Endpoint Detection and Response (EDR) is a security product that is installed on endpoint-qualified devices, 
+constantly monitors the activities in the system, tries to detect security threats such as ransomware & malware, 
+and takes action against malicious activities.
 
 
 ### Endpoint Devices :
@@ -212,3 +214,113 @@ Some popular EDR products used within the cybersecurity industry are as follows:
 
 
 
+# 6) Antivirus Software (AV)
+
+Antivirus Software (AV) is security software that detects malware on devices and blocks and removes malware from the system before it harms the device.
+
+## Types of Antivirus Software : 
+| Feature | Signature-Based Scanning | Heuristic Scanning |
+|----------|--------------------------|--------------------|
+| Detection Method | Detects malware using known digital signatures stored in a database | Detects malware by analyzing behavior and suspicious actions |
+| Database Requirement | Requires an updated signature database | Does not rely on signatures |
+| Effectiveness | Effective against known malware | Can detect unknown or new (zero-day) malware |
+| Detection Logic | Matches file signature with database | Monitors file behavior (e.g., modifying system files, suspicious access attempts) |
+| Update Requirement | Needs constant updates to stay effective | Does not depend heavily on frequent signature updates |
+| Limitation | Cannot detect new malware without existing signature | May generate false positives |
+| Usage History | Traditional and widely used method | More advanced and behavior-based approach |
+
+#### According to the given Windows Defender log, what is the type of malware named “executable.8180.exe”?
+>**ANSWER: Trojan**
+
+![alt text](../Assets/lab11/6.1.png)
+
+#### According to the given Windows Defender log, what is the name of the file belonging to the "Backdoor" type malware?
+>**ANSWER: program1**
+
+![alt text](../Assets/lab11/6.2.png)
+
+
+
+
+# 7) Sandbox Solutions
+
+Sandbox is a technology used to run/open and examine executable files or file types with different extensions (pdf, docx, and xlsx, etc.) that are thought or known to be malware in an isolated environment. Thanks to the Sandbox, precautions are taken against the problems that may arise when the file is run/opened on a live system.
+
+
+## The Benefits of Sandboxing :
+1. It does not put hosts and operating systems at risk.
+1. Detects potentially dangerous files.
+1. Allows testing of software updates before they go live.
+1. It allows fighting against 0-day vulnerabilities.
+
+## Here's how a sandbox works:
+
+![alt text](../Assets/lab11/7.1.png)
+
+
+#### According to the sandbox analysis result in the URL given below, for which domain address was the DNS request made?
+>**ANSWER: www.xmlformats.com**
+#### What is the name and extension of the file that performs the malicious activity on the system according to the sandbox analysis result in the URL given below?
+>**ANSWER: DotSetupSDK.dll**
+
+# 8) Data Loss Prevention (DLP)
+Data Loss Prevention (DLP) is a technology that prevents sensitive and critical information from leaving the institution.
+
+## Types of DLP :
+| DLP Type        | Description | Example Capabilities |
+|----------------|------------|----------------------|
+| **Network DLP** | Monitors and controls sensitive data leaving the organization through network traffic. It analyzes packet flow and takes action based on configuration. | Blocks file uploads to FTP servers, audits suspicious transfers, forwards logs to security systems, alerts administrators. |
+| **Endpoint DLP** | Monitors activities on individual devices instead of network traffic. Installed directly on endpoints to control and prevent data leaks. | Detects unencrypted sensitive files, monitors USB transfers, protects remote employees' devices. |
+| **Cloud DLP** | Protects sensitive data stored or transmitted through cloud services and applications. | Prevents data leaks in cloud apps, ensures secure cloud usage by employees, monitors cloud storage activity. |
+
+# 9) Asset Management Solutions
+
+Asset Management Solutions is software that can implement all asset management operations such as monitoring the operating status of assets in the corporate network, maintaining them, and removing them when necessary.
+
+## Benefits of Asset Management Software :
+1. It facilitates the implementation of standards.
+1. It helps with documentation.
+1. It improves the working performance of assets.
+1. Provides inventory control.
+1. Provides strategic decision-making support.
+
+## Some popular Asset Management Tools used in the cybersecurity industry are as follows:
+
+1. AssetExplorer
+1. Ivanti
+1. Armis
+1. Asset Panda
+
+
+# 10) Web Application Firewall (WAF)
+
+Web Application Firewall (WAF) is security software or hardware that monitors, filters, and blocks incoming packets to a web application and outgoing packets from a web application.
+
+## Types of WAF : 
+| WAF Type            | Description | Advantages | Disadvantages |
+|---------------------|------------|------------|---------------|
+| Network-based WAF   | Hardware-based security product deployed on the network. Requires staff to write and maintain rules. | Highly effective protection. | Expensive compared to other WAF types. Requires dedicated hardware and ongoing maintenance. |
+| Host-based WAF      | Software-based WAF installed on a server. Offers high customization. | Cheaper than network-based WAF. More customization options. | Consumes server resources. Harder to maintain. Requires secure system hardening. |
+| Cloud-based WAF     | External service-based WAF provided through the cloud. Maintenance and updates handled by provider. | Easy to deploy. No hardware cost. No maintenance responsibility. | Limited customization depending on provider. Must ensure it meets specific security needs. |
+
+
+##  how an action is taken on the WAF product against normal and malicious requests.
+![alt text](../Assets/lab11/10.1.png)
+
+
+## Some popular WAF products used in the cybersecurity industry are as follows:
+
+1. AWS
+1. Cloudflare
+1. F5
+1. Citrix
+1. Fortiweb
+
+#### According to the given AWS WAF log, a request for SQL_Injection attack was blocked. What is the IP Address that sent this request?
+>**ANSWER: 185.220.101.35**
+#### According to the given Cloudflare WAF log, an HTTP request was sent to the IP address 185.220.102.244 . Which HTTP method does this HTTP request use?
+>**ANSWER: get**
+
+
+#### 
+>**ANSWER: **
