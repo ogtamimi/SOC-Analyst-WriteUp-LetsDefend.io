@@ -324,3 +324,110 @@ Web Application Firewall (WAF) is security software or hardware that monitors, f
 
 #### 
 >**ANSWER: **
+
+# 11) Load Balancer
+
+Load Balancer is a hardware or software used to distribute the traffic to the servers in a balanced way and is placed in front of the servers.
+
+```
+DoS (Denial of Service): It is called attacking to render the service inoperable by sending more network traffic than the target system can handle. In short, it can be said to cause disruption of the service provided by consuming resources towards the target.
+```
+
+## Some popular Load Balancer products used in the cyber security industry are as follows:
+1. Nginx
+1. F5
+1. HAProxy
+1. Citrix
+1. Azure Traffic Manager
+1. AWS
+
+#### What is the User-Agent in the HTTP request in the given AWS load balancer log?
+>**ANSWER: curl/7.46.0**
+
+![alt text](../Assets/lab11/11.1.png)
+
+
+
+# 12) Proxy Server
+
+A proxy Server is hardware or software used for many different purposes and acts as a gateway between client and server.
+
+Types of Proxy Servers : 
+| Proxy Type | Description |
+|-------------|-------------|
+| Forward Proxy Server | Directs requests from a private network to the internet through a firewall. |
+| Transparent Proxy Server | Forwards requests and responses without modifying them. |
+| Anonymous Proxy Server | Allows anonymous browsing on the internet. |
+| High Anonymity Proxy Server | Hides both the proxy type and the client's real IP address for stronger anonymity. |
+| Distorting Proxy Server | Identifies itself as a proxy but sends a fake IP address instead of the real one. |
+| Data Center Proxy Server | Proxy hosted in data centers and not connected to an ISP; fast but provides weak anonymity. |
+| Residential Proxy Server | Uses real residential IP addresses and is generally more secure and harder to detect. |
+| Public Proxy Server | Free proxy accessible to everyone; usually slow and insecure. |
+| Shared Proxy Server | A proxy used by multiple users at the same time; cheaper but IP reputation may be affected by other users. |
+| SSL Proxy Server | Encrypts communication between the client and server using SSL/TLS. |
+| Rotating Proxy Server | Assigns a different IP address to each request or client. |
+| Reverse Proxy Server | Handles requests on behalf of servers and prevents clients from communicating directly with them. |
+| Split Proxy Server | Operates as two programs installed on two different machines. |
+| Non-Transparent Proxy Server | Sends requests through a firewall and clients are aware that a proxy is being used. |
+| Hostile Proxy Server | Malicious proxy used to monitor or intercept traffic between client and server. |
+| Intercepting Proxy Server | Combines proxy server functionality with gateway features. |
+| Forced Proxy Server | Enforces policies that allow or block specific requests. |
+| Caching Proxy Server | Stores cached copies of responses to serve future requests faster. |
+| Web Proxy Server | Designed specifically to handle web traffic. |
+| SOCKS Proxy Server | Routes traffic without exposing the client to external networks. |
+| HTTP Proxy Server | Proxy designed for HTTP traffic and may include caching features. |
+
+#### According to the given Squid Web Proxy Server log, to which port of the "letsdefend.io" address was the request sent?
+>**ANSWER: 443**
+
+![alt text](../Assets/lab11/12.1.png)
+
+#### According to the given Squid Web Proxy Server log, how many different web addresses are there to send HTTP GET method requests?
+>**ANSWER: 5**
+
+
+# 13) Email Security Solutions
+
+Email Security Solutions is one of the security solutions that provides security against threats that may come via e-mail. It can be software or hardware-based products.
+
+![alt text](../Assets/lab11/13.1.png)
+
+## Some popular Email Security Solutions products used within the cyber security industry are as follows:
+1. FireEye EX
+1. IronPort
+1. TrendMicro Email Security
+1. Proofpoint
+1. Symantec
+
+#### According to the email security solution log, what is the email address of the recipient of the email?
+>**ANSWER: jonas@letsdefend.io**
+#### What is the type of threat according to the email security solution log provided?
+>**ANSWER: malware**
+
+# 14) Quiz
+#### What is a security product that detects attacks by monitoring the network or a host but does not have the ability to take action?
+>**ANSWER: IDS**
+#### Which of the following is a security product that is generally installed on the outward-facing interfaces of organizations and prevents or allows packet passage by managing network packet passes?
+>**ANSWER: Firewall**
+#### What is a security product that tries to detect threats by monitoring activities on the system installed on endpoint devices?
+>**ANSWER: EDR**
+#### Which of the following is not an endpoint device?
+>**ANSWER: Router**
+#### What is a security product that scans the system and detects malicious software with a signature-based or behavioral analysis method?
+>**ANSWER: AntiVirus**
+#### What is a security solution that enables analysis of malware behavior by running malware in an isolated environment?
+>**ANSWER: Sandbox**
+#### Which of the following is not a benefit of Asset Management software?
+>**ANSWER: Decreases the operating performance of assets.**
+#### What is a security tool that detects and blocks security threats by passing requests to the web application?
+>**ANSWER: WAF**
+#### What is the tool used to distribute the traffic to the servers evenly?
+>**ANSWER: Load Balancer**
+#### Which of the following is not one of the benefits of a proxy server?
+>**ANSWER: It does not provide any options to manage network traffic.**
+#### Which of the following is the most effective security solution against phishing attacks?
+>**ANSWER: Email Security Gateway**
+#### What is the security product that prevents the leakage of sensitive and critical information outside the organization?
+>**ANSWER: DLP**
+
+# END
