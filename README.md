@@ -1,4 +1,4 @@
-![Banner](/SOC/Assets/banner.png)
+![Banner](SOC/Assets/banner_animated.gif)
 # Lets Defend - SOC Analyst Learning Path Write-Ups
 
 A comprehensive collection of write-ups and study materials for the **LetsDefend SOC Analyst Learning Path**. 

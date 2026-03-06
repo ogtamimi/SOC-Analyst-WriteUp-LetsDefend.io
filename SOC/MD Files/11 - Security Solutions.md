@@ -322,8 +322,6 @@ Web Application Firewall (WAF) is security software or hardware that monitors, f
 >**ANSWER: get**
 
 
-#### 
->**ANSWER: **
 
 # 11) Load Balancer
 
