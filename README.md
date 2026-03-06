@@ -1,6 +1,7 @@
 ![Banner](SOC/Assets/banner_animated.gif)
-# Lets Defend - SOC Analyst Learning Path Write-Ups
-
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&duration=3000&pause=800&color=C084FC&center=true&vCenter=true&width=900&lines=Lets+Defend+-+SOC+Analyst+Learning+Path;Write-Ups+and+Security+Notes" />
+</p>
 A comprehensive collection of write-ups and study materials for the **LetsDefend SOC Analyst Learning Path**. 
 This repository is designed to document the learning journey, provide clear explanations for various SOC concepts, 
 and offer solutions to practical scenarios encountered during the certification process.
