@@ -31,8 +31,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 |   |   ├── 9 - Dynamic Malware Analysis
 |   |   ├── 10 - Malicious Document Analysis
 |   |   ├── 11 - Security Solutions
-|   |   └── 12 - Network Log Analysis
-|   |
+|   |   ├── 12 - Network Log Analysis
+|   |   └── 13 - SIEM 101
 |   |     
 |   └── Labs
 |       |    
@@ -64,6 +64,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 ### [10. Malicious Document Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/10%20-%20Malicious%20Document%20Analysis.md)
 ### [11. Security Solutions](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/11%20-%20Security%20Solutions.md)
 ### [12. Network Log Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/12%20-%20Network%20Log%20Analysis.md)
+### [13. SIEM 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/13%20-%20SIEM%20101.md)
 
 # 📝 Labs Covered
 
