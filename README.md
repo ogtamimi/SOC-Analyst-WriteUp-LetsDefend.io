@@ -7,6 +7,7 @@ This repository is designed to document the learning journey, provide clear expl
 and offer solutions to practical scenarios encountered during the certification process.
 
 <br>
+<br>
 
 ![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
