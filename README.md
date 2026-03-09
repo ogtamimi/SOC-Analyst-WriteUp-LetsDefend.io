@@ -57,31 +57,31 @@ The repository is organized into structured modules, following the SOC Analyst l
 
 # 📝 Modules Covered
 
-### [1. SOC Fundamentals](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/1%20-%20SOC%20Fundamentals.md)
-### [2. Cyber Kill Chain](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/2%20-%20Cyber%20Kill%20Chain.md)
-### [3. MITRE ATT&CK Framework](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/3%20-%20MITRE%20ATT&CK%20Framework.md)
-### [4. Introduction to Phishing](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/4%20-%20Introduction%20to%20Phishing.md)
-### [5. Detecting Web Attacks](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/5%20-%20Detecting%20Web%20Attacks.md)
-### [6. Detecting Web Attacks - 2](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/6%20-%20Detecting%20Web%20Attacks%20-%202.md)
-### [7. How to Investigate a SIEM Alert](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/7%20-%20How%20to%20Investigate%20a%20SIEM%20Alert.md)
-### [8. Malware Analysis Fundamentals](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/8%20-%20Malware%20Analysis%20Fundamentals.md)
-### [9. Dynamic Malware Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/9%20-%20Dynamic%20Malware%20Analysis.md)
-### [10. Malicious Document Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/10%20-%20Malicious%20Document%20Analysis.md)
-### [11. Security Solutions](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/11%20-%20Security%20Solutions.md)
-### [12. Network Log Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/12%20-%20Network%20Log%20Analysis.md)
-### [13. SIEM 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/13%20-%20SIEM%20101.md)
-### [14. Incident Management 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/14%20-%20Incident%20Management%20101.md)
-### [15. Splunk](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/15%20-%20splunk.md)
+#### [1. SOC Fundamentals](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/1%20-%20SOC%20Fundamentals.md)
+#### [2. Cyber Kill Chain](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/2%20-%20Cyber%20Kill%20Chain.md)
+#### [3. MITRE ATT&CK Framework](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/3%20-%20MITRE%20ATT&CK%20Framework.md)
+#### [4. Introduction to Phishing](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/4%20-%20Introduction%20to%20Phishing.md)
+#### [5. Detecting Web Attacks](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/5%20-%20Detecting%20Web%20Attacks.md)
+#### [6. Detecting Web Attacks - 2](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/6%20-%20Detecting%20Web%20Attacks%20-%202.md)
+#### [7. How to Investigate a SIEM Alert](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/7%20-%20How%20to%20Investigate%20a%20SIEM%20Alert.md)
+#### [8. Malware Analysis Fundamentals](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/8%20-%20Malware%20Analysis%20Fundamentals.md)
+#### [9. Dynamic Malware Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/9%20-%20Dynamic%20Malware%20Analysis.md)
+#### [10. Malicious Document Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/10%20-%20Malicious%20Document%20Analysis.md)
+#### [11. Security Solutions](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/11%20-%20Security%20Solutions.md)
+#### [12. Network Log Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/12%20-%20Network%20Log%20Analysis.md)
+#### [13. SIEM 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/13%20-%20SIEM%20101.md)
+#### [14. Incident Management 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/14%20-%20Incident%20Management%20101.md)
+#### [15. Splunk](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/15%20-%20splunk.md)
 
 
 # 📝 Labs Covered
 
-### [2. 14 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2014%20-%20SOC104%20-%20Malware%20Detected.md)
-### [3. 36 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2036%20-%20SOC104%20-%20Malware%20Detected.md)
-### [4. 83 - SOC119 - Proxy - Malicious Executable File Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2083%20-%20SOC119%20-%20Proxy%20-%20Malicious%20Executable%20File%20Detected.md)
-### [5. 85 - SOC109 - Proxy - Emotet Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2085%20-%20SOC109%20-%20Emotet%20Malware%20Detected.md)
-### [6. 84 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2084%20-%20SOC104%20-%20Malware%20Detected.md)
-### [7. 92 - SOC145 - Ransomware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2092%20-%20SOC145%20-%20Ransomware%20Detected.md)
+#### [2. 14 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2014%20-%20SOC104%20-%20Malware%20Detected.md)
+#### [3. 36 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2036%20-%20SOC104%20-%20Malware%20Detected.md)
+#### [4. 83 - SOC119 - Proxy - Malicious Executable File Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2083%20-%20SOC119%20-%20Proxy%20-%20Malicious%20Executable%20File%20Detected.md)
+#### [5. 85 - SOC109 - Proxy - Emotet Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%2085%20-%20SOC109%20-%20Emotet%20Malware%20Detected.md)
+#### [6. 84 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2084%20-%20SOC104%20-%20Malware%20Detected.md)
+#### [7. 92 - SOC145 - Ransomware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2092%20-%20SOC145%20-%20Ransomware%20Detected.md)
 
 
 ## 📜 License
