@@ -6,7 +6,7 @@ A comprehensive collection of write-ups and study materials for the **LetsDefend
 This repository is designed to document the learning journey, provide clear explanations for various SOC concepts, 
 and offer solutions to practical scenarios encountered during the certification process.
 
-
+<br>
 
 ![Security](https://img.shields.io/badge/Security-Responsible%20Disclosure-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
@@ -75,7 +75,6 @@ The repository is organized into structured modules, following the SOC Analyst l
 - **[Incident Management 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/14%20-%20Incident%20Management%20101.md)**
 - **[Splunk](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/15%20-%20splunk.md)**
 
----
 
 ## 🖥️ Labs Covered
 
