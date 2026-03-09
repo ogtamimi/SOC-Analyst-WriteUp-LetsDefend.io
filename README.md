@@ -32,8 +32,13 @@ The repository is organized into structured modules, following the SOC Analyst l
 |   |   ├── 10 - Malicious Document Analysis
 |   |   ├── 11 - Security Solutions
 |   |   ├── 12 - Network Log Analysis
-|   |   └── 13 - SIEM 101
-|   |     
+|   |   ├── 13 - SIEM 101
+|   |   └── 14 - Incident Management 101 
+|   |
+|   |
+|   |
+|   |
+|   |
 |   └── Labs
 |       |    
 |       ├── 1 - SOC282 - Phishing Alert
@@ -65,6 +70,9 @@ The repository is organized into structured modules, following the SOC Analyst l
 ### [11. Security Solutions](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/11%20-%20Security%20Solutions.md)
 ### [12. Network Log Analysis](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/12%20-%20Network%20Log%20Analysis.md)
 ### [13. SIEM 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/13%20-%20SIEM%20101.md)
+### [14. Incident Management 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/14%20-%20Incident%20Management%20101.md)
+
+
 
 # 📝 Labs Covered
 
