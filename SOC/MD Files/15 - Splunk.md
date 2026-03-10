@@ -111,7 +111,6 @@ Select the logs you want and click **Next**.
 Select the index where logs will be stored.
 
 In this lab we create a new index:
-
 `WinLog_clients`
 
 To do this:
