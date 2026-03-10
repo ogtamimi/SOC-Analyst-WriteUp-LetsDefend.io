@@ -36,8 +36,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 |   |   ├── 12 - Network Log Analysis
 |   |   ├── 13 - SIEM 101
 |   |   ├── 14 - Incident Management 101 
-|   |   └── 15 - Splunk
-|   |
+|   |   ├── 15 - Splunk
+|   |   └── 16 - Cyber Threat Intelligence
 |   |
 |   |
 |   |
@@ -75,7 +75,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 - **[SIEM 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/13%20-%20SIEM%20101.md)**
 - **[Incident Management 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/14%20-%20Incident%20Management%20101.md)**
 - **[Splunk](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/15%20-%20Splunk.md)**
-
+- **[Cyber Threat Intelligence](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/16%20-%20Cyber%20Threat%20Intelligence.md)**
 
 ## 🖥️ Labs Covered
 
