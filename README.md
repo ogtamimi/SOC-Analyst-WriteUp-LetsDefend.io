@@ -22,38 +22,39 @@ The repository is organized into structured modules, following the SOC Analyst l
 │   │
 │   ├── MD Files                     # Detailed markdown write-ups for each lecture
 |   |   |
-│   |   ├── 1 - SOC Fundamentals
-│   |   ├── 2 - Cyber Kill Chain
-│   |   ├── 3 - MITRE ATT&CK Framework
-│   |   ├── 4 - Introduction to Phishing
-|   |   ├── 5 - Detecting Web Attacks
-|   |   ├── 6 - Detecting Web Attacks - 2
-|   |   ├── 7 - How to Investigate a SIEM Alert 
-|   |   ├── 8 - Malware Analysis Fundamentals
-|   |   ├── 9 - Dynamic Malware Analysis
-|   |   ├── 10 - Malicious Document Analysis
-|   |   ├── 11 - Security Solutions
-|   |   ├── 12 - Network Log Analysis
-|   |   ├── 13 - SIEM 101
-|   |   ├── 14 - Incident Management 101 
-|   |   ├── 15 - Splunk
-|   |   ├── 16 - Cyber Threat Intelligence
-|   |   └── 17 - VirusTotal for SOC Analysts
+│   |   ├── 1) SOC Fundamentals
+│   |   ├── 2) Cyber Kill Chain
+│   |   ├── 3) MITRE ATT&CK Framework
+│   |   ├── 4) Introduction to Phishing
+|   |   ├── 5) Detecting Web Attacks
+|   |   ├── 6) Detecting Web Attacks - 2
+|   |   ├── 7) How to Investigate a SIEM Alert 
+|   |   ├── 8) Malware Analysis Fundamentals
+|   |   ├── 9) Dynamic Malware Analysis
+|   |   ├── 10) Malicious Document Analysis
+|   |   ├── 11) Security Solutions
+|   |   ├── 12) Network Log Analysis
+|   |   ├── 13) SIEM 101
+|   |   ├── 14) Incident Management 101 
+|   |   ├── 15) Splunk
+|   |   ├── 16) Cyber Threat Intelligence
+|   |   └── 17) VirusTotal for SOC Analysts
 |   |
 |   |
 |   └── Labs
 |       |    
-|       ├── 1 - SOC282 - Phishing Alert
-|       ├── 2 - 28 - SOC105 - Requested T.I. URL address
-|       ├── 3 - 36 - SOC104 - Malware Detected
-|       ├── 4 - 83 - SOC119 - Proxy - Malicious Executable File Detected
-|       ├── 5 - 85 - SOC109 - Proxy - Emotet Malware Detected
-|       ├── 6 - 84 - SOC104 - Malware Detected
-|       ├── 7 - 92 - SOC145 - Ransomware Detected
-|       ├── 8 - 20 - SOC105 - Requested T.I. URL address
-|       ├── 9 - 14 - SOC104 - Malware Detected
-|       └── 10 - 75 - SOC105 - Requested T.I. URL address
-|     
+|       ├── 1) SOC282 - Phishing Alert
+|       ├── 2) 28 - SOC105 - Requested T.I. URL address
+|       ├── 3) 36 - SOC104 - Malware Detected
+|       ├── 4) 83 - SOC119 - Proxy - Malicious Executable File Detected
+|       ├── 5) 85 - SOC109 - Proxy - Emotet Malware Detected
+|       ├── 6) 84 - SOC104 - Malware Detected
+|       ├── 7) 92 - SOC145 - Ransomware Detected
+|       ├── 8) 20 - SOC105 - Requested T.I. URL address
+|       ├── 9) 14 - SOC104 - Malware Detected
+|       ├── 10) 75 - SOC105 - Requested T.I. URL address
+|       └── 11) 76 - SOC137 - Malicious File Script Download Attempt
+|         
 |
 |
 ├── LICENSE                          # MIT License
@@ -93,6 +94,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 - **[92 - SOC145 - Ransomware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2092%20-%20SOC145%20-%20Ransomware%20Detected.md)**
 - **[20 - SOC105 - Requested T.I. URL address](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2020%20-%20SOC105%20-%20Requested%20T.I.%20URL%20address.md)**
 - **[28 - SOC105 - Requested T.I. URL address](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2028%20-%20SOC105%20-%20Requested%20T.I.%20URL%20address.md)**
+- **[76 - SOC137 - Malicious File Script Download Attempt](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2076%20-%20SOC137%20-%20Malicious%20File%20Script%20Download%20Attempt.md)**
+
 
 
 ## 📜 License
