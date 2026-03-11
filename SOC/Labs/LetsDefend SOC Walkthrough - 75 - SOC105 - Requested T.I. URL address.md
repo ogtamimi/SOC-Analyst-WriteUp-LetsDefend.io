@@ -23,6 +23,7 @@ Device Action :Allowed
 ![alt text](../Assets/75SOC105/1.png)
 
 fisrt lets check it in virustotal 
+
 ![alt text](../Assets/75SOC105/2.png)
 
 
@@ -42,9 +43,12 @@ its Clean !!
 ![alt text](../Assets/75SOC105/6.png)
 
 ```
-After conducting additional analysis, the URL and the destination website were checked against multiple threat intelligence sources and were not identified as malicious.
+After conducting additional analysis, the URL and the destination website were 
+checked against multiple threat intelligence sources and were not identified as malicious.
 
-Conclusion: The investigation determined that the URL and the related IP address are legitimate. No additional Indicators of Compromise (IOCs) were detected during the review. Therefore, the alert is considered a False Positive.
+Conclusion: The investigation determined that the URL and the related IP address 
+are legitimate. No additional Indicators of Compromise (IOCs) were detected during 
+the review. Therefore, the alert is considered a False Positive.
 ```
 
 ![alt text](../Assets/75SOC105/7.png)
