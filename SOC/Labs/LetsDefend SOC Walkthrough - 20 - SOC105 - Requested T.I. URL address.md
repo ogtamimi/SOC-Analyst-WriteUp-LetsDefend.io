@@ -67,11 +67,19 @@ The requested URL was not found
 
 
 ```
-On Oct 19, 2020, at 09:54 PM, our SIEM alerted a URL requested on our gitServer by gitUser. The requested URL was
+On Oct 19, 2020, at 09:54 PM, our SIEM alerted a URL requested on our gitServer by gitUser. 
+The requested URL was
 "hxxps://raw.githubusercontent.com/django/django/master/setup.py"
 with
-Destination IP Address of 151.101.112.133. These artifacts were not logged in our threat intelligence platform. We observed that the following commands were run on the endpoint on the event date. 2020-10-19 17:10 "pwd", 2020-10-19 17:12 "Is", 2020-10-19 18:12 "wget -h", 2020-10-19 21:54 "wget
-hxxps://raw.githubusercontent.com/django/django/master/setup.py", and 2020-10-19 21:55 "cd". We confirmed Django is a high-level Python web framework that facilitates rapid development and clean, pragmatic design. It includes several built-in security features to protect against common web vulnerabilities, but developers should be aware of potential security issues and how to mitigate them. The user was installing/configuring the tool via the Django GitHub repository. This is a false positive alert after reviewing the details and finding no network logs for malicious IPs.
+Destination IP Address of 151.101.112.133. These artifacts were not logged in our threat intelligence 
+platform. We observed that the following commands were run on the endpoint on the event date. 
+2020-10-19 17:10 "pwd", 2020-10-19 17:12 "Is", 2020-10-19 18:12 "wget -h", 2020-10-19 21:54 "wget
+hxxps://raw.githubusercontent.com/django/django/master/setup.py", and 2020-10-19 21:55 "cd". 
+We confirmed Django is a high-level Python web framework that facilitates rapid development and clean, 
+pragmatic design. It includes several built-in security features to protect against common web vulnerabilities, 
+but developers should be aware of potential security issues and how to mitigate them. The user was 
+installing/configuring the tool via the Django GitHub repository. This is a false positive alert after 
+reviewing the details and finding no network logs for malicious IPs.
 ```
 ![alt text](../Assets/16SOC105/15.png)
 
