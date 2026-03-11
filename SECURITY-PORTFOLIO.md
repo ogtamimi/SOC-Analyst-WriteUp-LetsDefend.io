@@ -33,7 +33,7 @@ Each write-up includes:
 - MITRE ATT&CK Techniques
 - Lessons Learned
 
-🔗 Main Repository:
+🔗 Main Repository: 
 [SOC Analyst Write-Ups](./README.md)
 
 ---
