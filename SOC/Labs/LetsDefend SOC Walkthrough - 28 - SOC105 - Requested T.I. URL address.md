@@ -28,7 +28,7 @@
 ![alt text](../Assets/28SOC105/2.png)
 ![alt text](../Assets/28SOC105/4.png)
 
-## Select Malicious
+## Select Malicious.
 
 ![alt text](../Assets/28SOC105/5.png)
 
