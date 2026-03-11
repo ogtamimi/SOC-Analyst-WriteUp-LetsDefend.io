@@ -86,7 +86,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 - **[84 - SOC104 - Malware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2084%20-%20SOC104%20-%20Malware%20Detected.md)**
 - **[92 - SOC145 - Ransomware Detected](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2092%20-%20SOC145%20-%20Ransomware%20Detected.md)**
 - **[20 - SOC105 - Requested T.I. URL address](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2020%20-%20SOC105%20-%20Requested%20T.I.%20URL%20address.md)**
-
+- **[28 - SOC105 - Requested T.I. URL address](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/Labs/LetsDefend%20SOC%20Walkthrough%20-%2028%20-%20SOC105%20-%20Requested%20T.I.%20URL%20address.md)**
 
 
 ## 📜 License
