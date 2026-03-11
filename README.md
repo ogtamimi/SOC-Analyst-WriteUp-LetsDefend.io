@@ -37,20 +37,23 @@ The repository is organized into structured modules, following the SOC Analyst l
 |   |   ├── 13 - SIEM 101
 |   |   ├── 14 - Incident Management 101 
 |   |   ├── 15 - Splunk
-|   |   └── 16 - Cyber Threat Intelligence
-|   |
+|   |   ├── 16 - Cyber Threat Intelligence
+|   |   └── 17 - VirusTotal for SOC Analysts
 |   |
 |   |
 |   └── Labs
 |       |    
 |       ├── 1 - SOC282 - Phishing Alert
-|       ├── 2 - 14 - SOC104 - Malware Detected
+|       ├── 2 - 28 - SOC105 - Requested T.I. URL address
 |       ├── 3 - 36 - SOC104 - Malware Detected
 |       ├── 4 - 83 - SOC119 - Proxy - Malicious Executable File Detected
 |       ├── 5 - 85 - SOC109 - Proxy - Emotet Malware Detected
 |       ├── 6 - 84 - SOC104 - Malware Detected
-|       └── 7 - 92 - SOC145 - Ransomware Detected
-|
+|       ├── 7 - 92 - SOC145 - Ransomware Detected
+|       ├── 8 - 20 - SOC105 - Requested T.I. URL address
+|       ├── 9 - 14 - SOC104 - Malware Detected
+|       └── 10 - 75 - SOC105 - Requested T.I. URL address
+|     
 |
 |
 ├── LICENSE                          # MIT License
@@ -76,6 +79,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 - **[Incident Management 101](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/14%20-%20Incident%20Management%20101.md)**
 - **[Splunk](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/15%20-%20Splunk.md)**
 - **[Cyber Threat Intelligence](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/16%20-%20Cyber%20Threat%20Intelligence.md)**
+- **[VirusTotal for SOC Analysts](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/17%20-%20VirusTotal%20for%20SOC%20Analysts.md)**
+
 
 ## 🖥️ Labs Covered
 
