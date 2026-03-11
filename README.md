@@ -62,6 +62,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 └── README.md                        # Project overview and structure
 ```
 
+![alt text](SOC/Assets/soc_writeups_v7.gif)
 
 ## 📚 Modules Covered
 
