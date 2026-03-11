@@ -40,8 +40,8 @@ The repository is organized into structured modules, following the SOC Analyst l
 |   |   ├── 16) Cyber Threat Intelligence
 |   |   ├── 17) VirusTotal for SOC Analysts
 |   |   ├── 18) IT Security Basis for Corporates
-|   |   └── 19) Detecting Brute Force Attacks
-|   |
+|   |   ├── 19) Detecting Brute Force Attacks
+|   |   └── 20) Building a Malware Analysis Lab
 |   |
 |   └── Labs
 |       |    
@@ -86,6 +86,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 - **[VirusTotal for SOC Analysts](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/17%20-%20VirusTotal%20for%20SOC%20Analysts.md)**
 - **[IT Security Basis for Corporates](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/18%20-%20IT%20Security%20Basis%20for%20Corporates.md)**
 - **[Detecting Brute Force Attacks](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/19%20-%20Detecting%20Brute%20Force%20Attacks.md)**
+- **[Building a Malware Analysis Lab](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/20%20-%20Building%20a%20Malware%20Analysis%20Lab.md)**
 
 
 
