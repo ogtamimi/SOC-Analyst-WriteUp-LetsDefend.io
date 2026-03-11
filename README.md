@@ -109,9 +109,6 @@ The repository is organized into structured modules, following the SOC Analyst l
   <img src="SOC/Assets/e36db86b-c406-48b8-8a7b-64000f177337.png" alt="LetsDefend SOC Analyst Certificate" width="750">
 </p>
 
-<p align="center">
-  <h2>LetsDefend SOC Analyst Certificate</h2>
-</p>
 
 ## 📜 License
 
