@@ -38,8 +38,9 @@ The repository is organized into structured modules, following the SOC Analyst l
 |   |   ├── 14) Incident Management 101 
 |   |   ├── 15) Splunk
 |   |   ├── 16) Cyber Threat Intelligence
-|   |   └── 17) VirusTotal for SOC Analysts
-|   |
+|   |   ├── 17) VirusTotal for SOC Analysts
+|   |   └── 18) IT Security Basis for Corporates
+|   | 
 |   |
 |   └── Labs
 |       |    
@@ -81,6 +82,7 @@ The repository is organized into structured modules, following the SOC Analyst l
 - **[Splunk](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/15%20-%20Splunk.md)**
 - **[Cyber Threat Intelligence](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/16%20-%20Cyber%20Threat%20Intelligence.md)**
 - **[VirusTotal for SOC Analysts](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/17%20-%20VirusTotal%20for%20SOC%20Analysts.md)**
+- **[IT Security Basis for Corporates](https://github.com/ogtamimi/Lets-Defend-SOC-Analyst-Write-Ups/blob/main/SOC/MD%20Files/18%20-%20IT%20Security%20Basis%20for%20Corporates.md)**
 
 
 ## 🖥️ Labs Covered
